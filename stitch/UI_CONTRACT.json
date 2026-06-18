@@ -1,0 +1,772 @@
+[
+  {
+    "screenId": "0446d0a442d6443a92d86362598c58cc",
+    "screenTitle": "Three Editor - TaskPulse Mini",
+    "deviceType": "DESKTOP",
+    "elements": [
+      {
+        "type": "link",
+        "label": "Operations",
+        "href": "#",
+        "line": 134
+      },
+      {
+        "type": "link",
+        "label": "Editor",
+        "href": "#",
+        "line": 138
+      },
+      {
+        "type": "link",
+        "label": "Insights",
+        "href": "#",
+        "line": 142
+      },
+      {
+        "type": "link",
+        "label": "settings",
+        "href": "#",
+        "line": 146
+      },
+      {
+        "type": "link",
+        "label": "help",
+        "href": "#",
+        "line": 158
+      },
+      {
+        "type": "link",
+        "label": "logout",
+        "href": "#",
+        "line": 162
+      },
+      {
+        "type": "button",
+        "label": "timer",
+        "line": 109
+      },
+      {
+        "type": "button",
+        "label": "notifications",
+        "line": 112
+      },
+      {
+        "type": "button",
+        "label": "Start Focus Session",
+        "line": 153
+      },
+      {
+        "type": "button",
+        "label": "Cancel",
+        "line": 181
+      },
+      {
+        "type": "button",
+        "label": "Save Task",
+        "line": 182
+      },
+      {
+        "type": "input",
+        "label": "Enter task name",
+        "inputType": "text",
+        "placeholder": "Enter task name",
+        "line": 191
+      },
+      {
+        "type": "input",
+        "label": "number",
+        "inputType": "number",
+        "line": 199
+      },
+      {
+        "type": "input",
+        "label": "Add detailed notes, acceptance criteria, or technical requirements...",
+        "inputType": "textarea",
+        "placeholder": "Add detailed notes, acceptance criteria, or technical requirements...",
+        "line": 209
+      },
+      {
+        "type": "form",
+        "label": "form",
+        "line": 187
+      }
+    ],
+    "navigation": [
+      {
+        "type": "link",
+        "label": "Operations",
+        "href": "#",
+        "line": 134
+      },
+      {
+        "type": "link",
+        "label": "Editor",
+        "href": "#",
+        "line": 138
+      },
+      {
+        "type": "link",
+        "label": "Insights",
+        "href": "#",
+        "line": 142
+      },
+      {
+        "type": "link",
+        "label": "settings",
+        "href": "#",
+        "line": 146
+      },
+      {
+        "type": "link",
+        "label": "help",
+        "href": "#",
+        "line": 158
+      },
+      {
+        "type": "link",
+        "label": "logout",
+        "href": "#",
+        "line": 162
+      }
+    ],
+    "buttons": [
+      {
+        "type": "button",
+        "label": "timer",
+        "line": 109
+      },
+      {
+        "type": "button",
+        "label": "notifications",
+        "line": 112
+      },
+      {
+        "type": "button",
+        "label": "Start Focus Session",
+        "line": 153
+      },
+      {
+        "type": "button",
+        "label": "Cancel",
+        "line": 181
+      },
+      {
+        "type": "button",
+        "label": "Save Task",
+        "line": 182
+      }
+    ],
+    "inputs": [
+      {
+        "type": "input",
+        "label": "Enter task name",
+        "inputType": "text",
+        "placeholder": "Enter task name",
+        "line": 191
+      },
+      {
+        "type": "input",
+        "label": "number",
+        "inputType": "number",
+        "line": 199
+      },
+      {
+        "type": "input",
+        "label": "Add detailed notes, acceptance criteria, or technical requirements...",
+        "inputType": "textarea",
+        "placeholder": "Add detailed notes, acceptance criteria, or technical requirements...",
+        "line": 209
+      }
+    ],
+    "hardcodedData": [],
+    "totalInteractive": 15,
+    "requiresRouter": false,
+    "requiresDragDrop": false
+  },
+  {
+    "screenId": "24768e77e10648a0aa485ab56f758e77",
+    "screenTitle": "Insights - TaskPulse Mini",
+    "deviceType": "DESKTOP",
+    "elements": [
+      {
+        "type": "link",
+        "label": "Operations",
+        "href": "#",
+        "line": 116
+      },
+      {
+        "type": "link",
+        "label": "Editor",
+        "href": "#",
+        "line": 120
+      },
+      {
+        "type": "link",
+        "label": "Insights",
+        "href": "#",
+        "line": 124
+      },
+      {
+        "type": "link",
+        "label": "settings",
+        "href": "#",
+        "line": 128
+      },
+      {
+        "type": "link",
+        "label": "help",
+        "href": "#",
+        "line": 134
+      },
+      {
+        "type": "link",
+        "label": "logout",
+        "href": "#",
+        "line": 138
+      },
+      {
+        "type": "button",
+        "label": "Start Focus Session",
+        "line": 112
+      },
+      {
+        "type": "button",
+        "label": "timer",
+        "line": 149
+      },
+      {
+        "type": "button",
+        "label": "notifications",
+        "line": 152
+      },
+      {
+        "type": "button",
+        "label": "This Week",
+        "line": 165
+      },
+      {
+        "type": "button",
+        "label": "Export CSV",
+        "line": 169
+      }
+    ],
+    "navigation": [
+      {
+        "type": "link",
+        "label": "Operations",
+        "href": "#",
+        "line": 116
+      },
+      {
+        "type": "link",
+        "label": "Editor",
+        "href": "#",
+        "line": 120
+      },
+      {
+        "type": "link",
+        "label": "Insights",
+        "href": "#",
+        "line": 124
+      },
+      {
+        "type": "link",
+        "label": "settings",
+        "href": "#",
+        "line": 128
+      },
+      {
+        "type": "link",
+        "label": "help",
+        "href": "#",
+        "line": 134
+      },
+      {
+        "type": "link",
+        "label": "logout",
+        "href": "#",
+        "line": 138
+      }
+    ],
+    "buttons": [
+      {
+        "type": "button",
+        "label": "Start Focus Session",
+        "line": 112
+      },
+      {
+        "type": "button",
+        "label": "timer",
+        "line": 149
+      },
+      {
+        "type": "button",
+        "label": "notifications",
+        "line": 152
+      },
+      {
+        "type": "button",
+        "label": "This Week",
+        "line": 165
+      },
+      {
+        "type": "button",
+        "label": "Export CSV",
+        "line": 169
+      }
+    ],
+    "inputs": [],
+    "hardcodedData": [],
+    "totalInteractive": 11,
+    "requiresRouter": false,
+    "requiresDragDrop": false
+  },
+  {
+    "screenId": "8e0b9807d1984159919b2236b1b7474f",
+    "screenTitle": "Three Operations - TaskPulse Mini",
+    "deviceType": "DESKTOP",
+    "elements": [
+      {
+        "type": "link",
+        "label": "Operations",
+        "href": "#",
+        "line": 189
+      },
+      {
+        "type": "link",
+        "label": "Editor",
+        "href": "#",
+        "line": 193
+      },
+      {
+        "type": "link",
+        "label": "Insights",
+        "href": "#",
+        "line": 197
+      },
+      {
+        "type": "link",
+        "label": "settings",
+        "href": "#",
+        "line": 201
+      },
+      {
+        "type": "link",
+        "label": "help",
+        "href": "#",
+        "line": 207
+      },
+      {
+        "type": "link",
+        "label": "logout",
+        "href": "#",
+        "line": 211
+      },
+      {
+        "type": "link",
+        "label": "Operations",
+        "href": "#",
+        "line": 400
+      },
+      {
+        "type": "link",
+        "label": "Editor",
+        "href": "#",
+        "line": 406
+      },
+      {
+        "type": "link",
+        "label": "Insights",
+        "href": "#",
+        "line": 412
+      },
+      {
+        "type": "link",
+        "label": "settings",
+        "href": "#",
+        "line": 418
+      },
+      {
+        "type": "button",
+        "label": "Start Focus Session",
+        "line": 184
+      },
+      {
+        "type": "button",
+        "label": "New Task",
+        "line": 230
+      },
+      {
+        "type": "button",
+        "label": "All",
+        "line": 259
+      },
+      {
+        "type": "button",
+        "label": "Active",
+        "line": 260
+      },
+      {
+        "type": "button",
+        "label": "edit",
+        "line": 273
+      },
+      {
+        "type": "button",
+        "label": "edit",
+        "line": 292
+      },
+      {
+        "type": "button",
+        "label": "edit",
+        "line": 311
+      },
+      {
+        "type": "button",
+        "label": "more_horiz",
+        "line": 334
+      },
+      {
+        "type": "button",
+        "label": "restart_alt",
+        "line": 356
+      },
+      {
+        "type": "button",
+        "label": "pause",
+        "line": 359
+      },
+      {
+        "type": "button",
+        "label": "stop",
+        "line": 362
+      },
+      {
+        "type": "input",
+        "label": "Search tasks...",
+        "inputType": "text",
+        "placeholder": "Search tasks...",
+        "line": 228
+      }
+    ],
+    "navigation": [
+      {
+        "type": "link",
+        "label": "Operations",
+        "href": "#",
+        "line": 189
+      },
+      {
+        "type": "link",
+        "label": "Editor",
+        "href": "#",
+        "line": 193
+      },
+      {
+        "type": "link",
+        "label": "Insights",
+        "href": "#",
+        "line": 197
+      },
+      {
+        "type": "link",
+        "label": "settings",
+        "href": "#",
+        "line": 201
+      },
+      {
+        "type": "link",
+        "label": "help",
+        "href": "#",
+        "line": 207
+      },
+      {
+        "type": "link",
+        "label": "logout",
+        "href": "#",
+        "line": 211
+      },
+      {
+        "type": "link",
+        "label": "Operations",
+        "href": "#",
+        "line": 400
+      },
+      {
+        "type": "link",
+        "label": "Editor",
+        "href": "#",
+        "line": 406
+      },
+      {
+        "type": "link",
+        "label": "Insights",
+        "href": "#",
+        "line": 412
+      },
+      {
+        "type": "link",
+        "label": "settings",
+        "href": "#",
+        "line": 418
+      }
+    ],
+    "buttons": [
+      {
+        "type": "button",
+        "label": "Start Focus Session",
+        "line": 184
+      },
+      {
+        "type": "button",
+        "label": "New Task",
+        "line": 230
+      },
+      {
+        "type": "button",
+        "label": "All",
+        "line": 259
+      },
+      {
+        "type": "button",
+        "label": "Active",
+        "line": 260
+      },
+      {
+        "type": "button",
+        "label": "edit",
+        "line": 273
+      },
+      {
+        "type": "button",
+        "label": "edit",
+        "line": 292
+      },
+      {
+        "type": "button",
+        "label": "edit",
+        "line": 311
+      },
+      {
+        "type": "button",
+        "label": "more_horiz",
+        "line": 334
+      },
+      {
+        "type": "button",
+        "label": "restart_alt",
+        "line": 356
+      },
+      {
+        "type": "button",
+        "label": "pause",
+        "line": 359
+      },
+      {
+        "type": "button",
+        "label": "stop",
+        "line": 362
+      }
+    ],
+    "inputs": [
+      {
+        "type": "input",
+        "label": "Search tasks...",
+        "inputType": "text",
+        "placeholder": "Search tasks...",
+        "line": 228
+      }
+    ],
+    "hardcodedData": [],
+    "totalInteractive": 22,
+    "requiresRouter": false,
+    "requiresDragDrop": false
+  },
+  {
+    "screenId": "b957e310db0748e1865af0deb0a301d9",
+    "screenTitle": "Settings and Preferences - TaskPulse Mini",
+    "deviceType": "DESKTOP",
+    "elements": [
+      {
+        "type": "link",
+        "label": "Operations",
+        "href": "#",
+        "line": 133
+      },
+      {
+        "type": "link",
+        "label": "Editor",
+        "href": "#",
+        "line": 137
+      },
+      {
+        "type": "link",
+        "label": "Insights",
+        "href": "#",
+        "line": 141
+      },
+      {
+        "type": "link",
+        "label": "settings",
+        "href": "#",
+        "line": 146
+      },
+      {
+        "type": "link",
+        "label": "help",
+        "href": "#",
+        "line": 153
+      },
+      {
+        "type": "link",
+        "label": "logout",
+        "href": "#",
+        "line": 157
+      },
+      {
+        "type": "button",
+        "label": "Start Focus Session",
+        "line": 127
+      },
+      {
+        "type": "button",
+        "label": "refresh",
+        "line": 172
+      },
+      {
+        "type": "button",
+        "label": "Clear Data",
+        "line": 252
+      },
+      {
+        "type": "button",
+        "label": "Cancel",
+        "line": 261
+      },
+      {
+        "type": "button",
+        "label": "Apply Changes",
+        "line": 264
+      },
+      {
+        "type": "input",
+        "label": "select",
+        "inputType": "select",
+        "line": 194
+      },
+      {
+        "type": "input",
+        "label": "checkbox",
+        "inputType": "checkbox",
+        "line": 212
+      },
+      {
+        "type": "input",
+        "label": "radio",
+        "inputType": "radio",
+        "line": 225
+      },
+      {
+        "type": "input",
+        "label": "radio",
+        "inputType": "radio",
+        "line": 231
+      }
+    ],
+    "navigation": [
+      {
+        "type": "link",
+        "label": "Operations",
+        "href": "#",
+        "line": 133
+      },
+      {
+        "type": "link",
+        "label": "Editor",
+        "href": "#",
+        "line": 137
+      },
+      {
+        "type": "link",
+        "label": "Insights",
+        "href": "#",
+        "line": 141
+      },
+      {
+        "type": "link",
+        "label": "settings",
+        "href": "#",
+        "line": 146
+      },
+      {
+        "type": "link",
+        "label": "help",
+        "href": "#",
+        "line": 153
+      },
+      {
+        "type": "link",
+        "label": "logout",
+        "href": "#",
+        "line": 157
+      }
+    ],
+    "buttons": [
+      {
+        "type": "button",
+        "label": "Start Focus Session",
+        "line": 127
+      },
+      {
+        "type": "button",
+        "label": "refresh",
+        "line": 172
+      },
+      {
+        "type": "button",
+        "label": "Clear Data",
+        "line": 252
+      },
+      {
+        "type": "button",
+        "label": "Cancel",
+        "line": 261
+      },
+      {
+        "type": "button",
+        "label": "Apply Changes",
+        "line": 264
+      }
+    ],
+    "inputs": [
+      {
+        "type": "input",
+        "label": "select",
+        "inputType": "select",
+        "line": 194
+      },
+      {
+        "type": "input",
+        "label": "checkbox",
+        "inputType": "checkbox",
+        "line": 212
+      },
+      {
+        "type": "input",
+        "label": "radio",
+        "inputType": "radio",
+        "line": 225
+      },
+      {
+        "type": "input",
+        "label": "radio",
+        "inputType": "radio",
+        "line": 231
+      }
+    ],
+    "hardcodedData": [],
+    "totalInteractive": 15,
+    "requiresRouter": false,
+    "requiresDragDrop": false
+  }
+]
