@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Three Editor - TaskPulse Mini</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@500&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-secondary-fixed": "#2a1700",
+                        "outline-variant": "#434655",
+                        "outline": "#8d90a0",
+                        "inverse-on-surface": "#213145",
+                        "primary-fixed-dim": "#b4c5ff",
+                        "on-tertiary": "#283044",
+                        "on-surface": "#d3e4fe",
+                        "primary": "#b4c5ff",
+                        "surface-container-low": "#0b1c30",
+                        "on-error": "#690005",
+                        "on-tertiary-fixed-variant": "#3f465c",
+                        "on-secondary-container": "#5b3800",
+                        "on-secondary-fixed-variant": "#653e00",
+                        "on-error-container": "#ffdad6",
+                        "tertiary-fixed": "#dae2fd",
+                        "on-primary-fixed": "#00174b",
+                        "secondary": "#ffb95f",
+                        "tertiary": "#bec6e0",
+                        "primary-container": "#2563eb",
+                        "tertiary-container": "#656d84",
+                        "inverse-primary": "#0053db",
+                        "surface-container-highest": "#26364a",
+                        "on-background": "#d3e4fe",
+                        "secondary-container": "#ee9800",
+                        "error-container": "#93000a",
+                        "background": "#031427",
+                        "error": "#ffb4ab",
+                        "primary-fixed": "#dbe1ff",
+                        "on-tertiary-fixed": "#131b2e",
+                        "on-surface-variant": "#c3c6d7",
+                        "surface-container-high": "#1b2b3f",
+                        "on-primary": "#002a78",
+                        "surface-dim": "#031427",
+                        "surface-container": "#102034",
+                        "on-primary-fixed-variant": "#003ea8",
+                        "on-secondary": "#472a00",
+                        "on-tertiary-container": "#eef0ff",
+                        "tertiary-fixed-dim": "#bec6e0",
+                        "surface-container-lowest": "#000f21",
+                        "surface-variant": "#26364a",
+                        "surface-tint": "#b4c5ff",
+                        "surface": "#031427",
+                        "inverse-surface": "#d3e4fe",
+                        "secondary-fixed": "#ffddb8",
+                        "on-primary-container": "#eeefff",
+                        "surface-bright": "#2a3a4f",
+                        "secondary-fixed-dim": "#ffb95f"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "gutter": "12px",
+                        "base": "4px",
+                        "margin": "16px",
+                        "md": "12px",
+                        "lg": "16px",
+                        "xl": "24px",
+                        "xs": "4px",
+                        "sm": "8px"
+                    },
+                    "fontFamily": {
+                        "body-sm": ["Inter"],
+                        "body-md": ["Inter"],
+                        "label-caps": ["Inter"],
+                        "headline-sm": ["Inter"],
+                        "display": ["Inter"],
+                        "mono-data": ["JetBrains Mono"]
+                    },
+                    "fontSize": {
+                        "body-sm": ["13px", {"lineHeight": "18px", "fontWeight": "400"}],
+                        "body-md": ["14px", {"lineHeight": "20px", "fontWeight": "400"}],
+                        "label-caps": ["11px", {"lineHeight": "16px", "letterSpacing": "0.05em", "fontWeight": "700"}],
+                        "headline-sm": ["18px", {"lineHeight": "24px", "letterSpacing": "-0.01em", "fontWeight": "600"}],
+                        "display": ["24px", {"lineHeight": "32px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                        "mono-data": ["12px", {"lineHeight": "16px", "fontWeight": "500"}]
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-background text-on-background antialiased flex flex-col md:flex-row min-h-screen overflow-hidden">
+<!-- Mobile Top Navigation -->
+<header class="md:hidden w-full top-0 sticky z-50 bg-surface border-b border-outline-variant flex justify-between items-center px-lg h-12 w-full max-w-full">
+<div class="font-display text-display text-primary flex items-center gap-sm">
+<span>TaskPulse Mini</span>
+</div>
+<div class="flex items-center gap-md">
+<button class="text-on-surface-variant hover:text-primary transition-colors active:opacity-80 transition-all p-xs rounded-full">
+<span class="material-symbols-outlined" style="font-size: 20px;">timer</span>
+</button>
+<button class="text-on-surface-variant hover:text-primary transition-colors active:opacity-80 transition-all p-xs rounded-full">
+<span class="material-symbols-outlined" style="font-size: 20px;">notifications</span>
+</button>
+<img alt="User Profile" class="w-8 h-8 rounded-full border border-outline-variant object-cover" data-alt="A stylized minimalist avatar portrait of a professional user. The color palette is restricted to deep blues and greys, matching the modern corporate aesthetic. The lighting is soft and flat. The subject is abstract and neutral, conveying a calm and organized demeanor." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAYQ8Xv1O2N5Cnzq_SJTxbQ97I56FRCdVGJV6TmzyG2ZJ06Vab7NqG0-plVmclQPS6bSQlyeBwadfqvEFVlb7m1lyzBsW4JY5NV3Agtgrpjh7gUskcCwh-VlJHoviDnouBqbcANZVF1UlEWp6LTOU0gQq6wBYgs1gcZqpheqDpfWJDnYnvplTqXotHmC05HO5aGQYG_aEsRwj8IkOQcECIDbHDvjGjyOAN2h3TQxI4Sw-2rnZodgoJ5-vqCoekWM3dgS2DTVpq7_6Y"/>
+</div>
+</header>
+<!-- Mobile Bottom Navigation Shell (Only for primary destinations, suppressed here as Editor is a task-focus flow) -->
+<!-- Suppressed due to task-focused intent. -->
+<!-- Desktop Side Navigation -->
+<nav class="hidden md:flex flex-col h-screen w-64 sticky left-0 top-0 bg-surface-container border-r border-outline-variant p-md gap-sm flex-shrink-0 z-40">
+<!-- Header -->
+<div class="flex items-center gap-md mb-xl px-sm py-xs">
+<div class="w-8 h-8 rounded bg-primary-container flex items-center justify-center text-on-primary-container font-display font-bold">
+                T
+            </div>
+<div>
+<h1 class="font-display text-headline-sm text-primary leading-tight">TaskPulse</h1>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-tight">Mini v1.0</p>
+</div>
+</div>
+<!-- Navigation Links -->
+<div class="flex flex-col gap-xs flex-grow">
+<a class="flex items-center gap-md px-sm py-sm text-on-surface-variant hover:bg-surface-container-high rounded-xl font-body-sm text-body-sm hover:bg-surface-container-highest transition-colors active:scale-95 transition-transform" href="#">
+<span class="material-symbols-outlined">dashboard</span>
+                Operations
+            </a>
+<a class="flex items-center gap-md px-sm py-sm bg-primary-container text-on-primary-container rounded-xl font-bold font-body-sm text-body-sm active:scale-95 transition-transform" href="#">
+<span class="material-symbols-outlined">edit_note</span>
+                Editor
+            </a>
+<a class="flex items-center gap-md px-sm py-sm text-on-surface-variant hover:bg-surface-container-high rounded-xl font-body-sm text-body-sm hover:bg-surface-container-highest transition-colors active:scale-95 transition-transform" href="#">
+<span class="material-symbols-outlined">query_stats</span>
+                Insights
+            </a>
+<a class="flex items-center gap-md px-sm py-sm text-on-surface-variant hover:bg-surface-container-high rounded-xl font-body-sm text-body-sm hover:bg-surface-container-highest transition-colors active:scale-95 transition-transform" href="#">
+<span class="material-symbols-outlined">settings</span>
+                Settings
+            </a>
+</div>
+<!-- CTA & Footer -->
+<div class="mt-auto flex flex-col gap-sm">
+<button class="w-full bg-primary-container text-on-primary-container hover:bg-inverse-primary py-sm px-md rounded-lg font-body-sm text-body-sm font-medium transition-colors mb-sm flex items-center justify-center gap-sm">
+<span class="material-symbols-outlined" style="font-size: 18px;">play_arrow</span>
+                Start Focus Session
+            </button>
+<div class="border-t border-outline-variant pt-sm">
+<a class="flex items-center gap-md px-sm py-xs text-on-surface-variant hover:bg-surface-container-high rounded-xl font-body-sm text-body-sm hover:bg-surface-container-highest transition-colors" href="#">
+<span class="material-symbols-outlined" style="font-size: 18px;">help</span>
+                    Help
+                </a>
+<a class="flex items-center gap-md px-sm py-xs text-on-surface-variant hover:bg-surface-container-high rounded-xl font-body-sm text-body-sm hover:bg-surface-container-highest transition-colors" href="#">
+<span class="material-symbols-outlined" style="font-size: 18px;">logout</span>
+                    Logout
+                </a>
+</div>
+</div>
+</nav>
+<!-- Main Content Canvas -->
+<main class="flex-1 flex flex-col h-screen overflow-y-auto bg-surface-dim relative">
+<!-- Header -->
+<header class="px-xl py-lg flex justify-between items-center border-b border-outline-variant bg-surface sticky top-0 z-30">
+<div>
+<h2 class="font-display text-headline-sm text-on-surface">Task Editor</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-xs flex items-center gap-xs">
+<span class="material-symbols-outlined text-secondary" style="font-size: 14px;">circle</span>
+                    You have unsaved changes
+                </p>
+</div>
+<div class="flex gap-sm">
+<button class="h-8 px-md font-body-sm text-body-sm text-on-surface border border-outline-variant rounded hover:border-primary transition-colors bg-transparent">Cancel</button>
+<button class="h-8 px-md font-body-sm text-body-sm text-on-primary bg-primary-container hover:bg-inverse-primary rounded transition-colors border border-transparent">Save Task</button>
+</div>
+</header>
+<!-- Editor Form -->
+<div class="p-xl max-w-3xl mx-auto w-full flex-grow">
+<form class="flex flex-col gap-xl">
+<!-- Task Name -->
+<div class="flex flex-col gap-xs">
+<label class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider" for="taskName">Task Name *</label>
+<input class="bg-surface-container border border-outline-variant rounded h-8 px-sm font-body-sm text-body-sm text-on-surface focus:outline-none focus:border-primary transition-colors placeholder-outline" id="taskName" placeholder="Enter task name" type="text" value="Implement Redux Store"/>
+<!-- Validation message hidden by default -->
+<!-- <span class="font-body-sm text-body-sm text-error mt-1 flex items-center gap-1"><span class="material-symbols-outlined" style="font-size: 14px;">error</span>Task name is required</span> -->
+</div>
+<!-- Initial Timer -->
+<div class="flex flex-col gap-xs">
+<label class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider" for="taskTimer">Initial Timer Duration (Min)</label>
+<div class="relative w-32">
+<input class="bg-surface-container border border-outline-variant rounded h-8 px-sm font-mono-data text-mono-data text-on-surface focus:outline-none focus:border-primary transition-colors w-full" id="taskTimer" max="120" min="1" type="number" value="45"/>
+<div class="absolute right-2 top-1/2 -translate-y-1/2 flex flex-col pointer-events-none">
+<span class="material-symbols-outlined text-outline-variant" style="font-size: 12px; line-height: 0.5;">arrow_drop_up</span>
+<span class="material-symbols-outlined text-outline-variant" style="font-size: 12px; line-height: 0.5;">arrow_drop_down</span>
+</div>
+</div>
+</div>
+<!-- Description -->
+<div class="flex flex-col gap-xs flex-grow">
+<label class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider" for="taskDesc">Description (Optional)</label>
+<textarea class="bg-surface-container border border-outline-variant rounded p-sm font-body-sm text-body-sm text-on-surface focus:outline-none focus:border-primary transition-colors resize-none placeholder-outline" id="taskDesc" placeholder="Add detailed notes, acceptance criteria, or technical requirements..." rows="8"></textarea>
+</div>
+<!-- Metadata/Tags (Example of Bento Grid style element) -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-md mt-md border-t border-outline-variant pt-lg">
+<div class="bg-surface-container-low border border-outline-variant rounded-lg p-md flex flex-col gap-sm">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider">Project Assignment</span>
+<div class="flex items-center gap-sm">
+<div class="w-6 h-6 rounded bg-tertiary-container flex items-center justify-center">
+<span class="material-symbols-outlined text-on-tertiary-container" style="font-size: 14px;">folder</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface">Frontend Architecture</span>
+</div>
+</div>
+<div class="bg-surface-container-low border border-outline-variant rounded-lg p-md flex flex-col gap-sm">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider">Priority Level</span>
+<div class="flex items-center gap-sm">
+<span class="px-2 py-0.5 rounded-full bg-error-container text-on-error-container font-label-caps text-label-caps uppercase flex items-center gap-1 border border-error/20">
+<span class="material-symbols-outlined" style="font-size: 12px;">priority_high</span> High
+                             </span>
+</div>
+</div>
+</div>
+</form>
+</div>
+</main>
+</body></html>

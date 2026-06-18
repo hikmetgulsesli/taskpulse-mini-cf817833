@@ -1,0 +1,46 @@
+[
+  {
+    "screenId": "0446d0a442d6443a92d86362598c58cc",
+    "title": "Three Editor - TaskPulse Mini",
+    "htmlFile": "0446d0a442d6443a92d86362598c58cc.html",
+    "deviceType": "DESKTOP",
+    "htmlUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzRmM2U1OGFlYTEyNjRhMmM4YTRlMTZlYWVmMzMxODhhEgsSBxCN19Wi9xcYAZIBIwoKcHJvamVjdF9pZBIVQhM0MTQxNjQzODc5OTQ0NTM1NzYx&filename=&opi=96797242",
+    "localHtml": "/Users/setrox/projects/taskpulse-mini-cf817833/stitch/0446d0a442d6443a92d86362598c58cc.html",
+    "surfaceIds": [
+      "SURF_THREE_EDITOR"
+    ]
+  },
+  {
+    "screenId": "24768e77e10648a0aa485ab56f758e77",
+    "title": "Insights - TaskPulse Mini",
+    "htmlFile": "24768e77e10648a0aa485ab56f758e77.html",
+    "deviceType": "DESKTOP",
+    "htmlUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzJkZDE0YTE4MDdhNTQxZTdiODA0NTllOTIyMjU0ZGQwEgsSBxCN19Wi9xcYAZIBIwoKcHJvamVjdF9pZBIVQhM0MTQxNjQzODc5OTQ0NTM1NzYx&filename=&opi=96797242",
+    "localHtml": "/Users/setrox/projects/taskpulse-mini-cf817833/stitch/24768e77e10648a0aa485ab56f758e77.html",
+    "surfaceIds": [
+      "SURF_INSIGHTS"
+    ]
+  },
+  {
+    "screenId": "8e0b9807d1984159919b2236b1b7474f",
+    "title": "Three Operations - TaskPulse Mini",
+    "htmlFile": "8e0b9807d1984159919b2236b1b7474f.html",
+    "deviceType": "DESKTOP",
+    "htmlUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sX2IyMjEwMjQ5ODE3ODQ4NjZhOTNiZWIxMzQ5MjA2OTAyEgsSBxCN19Wi9xcYAZIBIwoKcHJvamVjdF9pZBIVQhM0MTQxNjQzODc5OTQ0NTM1NzYx&filename=&opi=96797242",
+    "localHtml": "/Users/setrox/projects/taskpulse-mini-cf817833/stitch/8e0b9807d1984159919b2236b1b7474f.html",
+    "surfaceIds": [
+      "SURF_THREE_OPERATIONS"
+    ]
+  },
+  {
+    "screenId": "b957e310db0748e1865af0deb0a301d9",
+    "title": "Settings and Preferences - TaskPulse Mini",
+    "htmlFile": "b957e310db0748e1865af0deb0a301d9.html",
+    "deviceType": "DESKTOP",
+    "htmlUrl": "https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJ7Eh1hcHBfY29tcGFuaW9uX2dlbmVyYXRlZF9maWxlcxpaCiVodG1sXzIwOWVlMGIwNTJiOTRmZTBhZGJjOTJiNGJkMDlmMzFmEgsSBxCN19Wi9xcYAZIBIwoKcHJvamVjdF9pZBIVQhM0MTQxNjQzODc5OTQ0NTM1NzYx&filename=&opi=96797242",
+    "localHtml": "/Users/setrox/projects/taskpulse-mini-cf817833/stitch/b957e310db0748e1865af0deb0a301d9.html",
+    "surfaceIds": [
+      "SURF_SETTINGS_AND_PREFERENCES"
+    ]
+  }
+]

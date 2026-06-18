@@ -1,0 +1,38 @@
+[
+  {
+    "screenId": "0446d0a442d6443a92d86362598c58cc",
+    "name": "Three Editor - TaskPulse Mini",
+    "type": "form",
+    "description": "Three Editor - TaskPulse Mini screen",
+    "surfaceIds": [
+      "SURF_THREE_EDITOR"
+    ]
+  },
+  {
+    "screenId": "24768e77e10648a0aa485ab56f758e77",
+    "name": "Insights - TaskPulse Mini",
+    "type": "app-screen",
+    "description": "Insights - TaskPulse Mini screen",
+    "surfaceIds": [
+      "SURF_INSIGHTS"
+    ]
+  },
+  {
+    "screenId": "8e0b9807d1984159919b2236b1b7474f",
+    "name": "Three Operations - TaskPulse Mini",
+    "type": "app-screen",
+    "description": "Three Operations - TaskPulse Mini screen",
+    "surfaceIds": [
+      "SURF_THREE_OPERATIONS"
+    ]
+  },
+  {
+    "screenId": "b957e310db0748e1865af0deb0a301d9",
+    "name": "Settings and Preferences - TaskPulse Mini",
+    "type": "settings",
+    "description": "Settings and Preferences - TaskPulse Mini screen",
+    "surfaceIds": [
+      "SURF_SETTINGS_AND_PREFERENCES"
+    ]
+  }
+]
